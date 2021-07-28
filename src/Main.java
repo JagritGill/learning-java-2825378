@@ -28,7 +28,7 @@ public class Main {
         // Retrieve the user's input
 
         // If the user's input matches the correctAnswer...
-        if(correctAnswer.equals(userInput)){
+        if(correctAnswer.equals(userInput.toLowerCase())){
             System.out.println("you are correct!!!");
         }else{
             System.out.println("sorry try again next time.");
